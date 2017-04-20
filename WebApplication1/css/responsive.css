@@ -1,0 +1,49 @@
+@media (max-width: 767px) {  
+    .logo{
+        text-align: center;
+    }
+	.sname{
+		display: none;
+	}
+    .logo {
+        margin-bottom: 10px;
+    }
+    #navbarCollapse{        
+        position: absolute;
+        top:50px;
+        z-index:9999;
+        width: 100%;
+    }  
+    .navbar-nav>li {
+        float: left;
+        width: 100%;
+    }   
+    .sliderbanner {
+    	position: relative;
+    }
+    .bx-wrapper .bx-controls-direction a{
+    	z-index:1000;
+    }
+    .bx-wrapper .bx-caption{
+        padding: 2%;
+    }
+    .bx-wrapper .bx-caption span{
+        font-size: 14px;
+    }
+    .gallery >div{
+        padding-bottom: 15px;
+    }
+    .footer .socio-icons{
+        margin: 10px 0;
+    }
+    .footer .logo{
+        display: none;
+    }
+    .footer{
+        padding-bottom: 10px;
+    }
+    .copyright{
+        padding: 8px 0;
+    }        
+
+}
